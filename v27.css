@@ -1,0 +1,37 @@
+
+/* V27 editorial imagery — selectively photographic services, clean remaining catalogue */
+.inner-hero{background-image:var(--page-hero,url('assets/hero-ai-office-2048.webp'));background-position:center center}
+@media (min-resolution: 1.5dppx){.inner-hero{background-image:var(--page-hero-2x,var(--page-hero))}}
+.catalog-card--photo{padding:0;overflow:hidden;min-height:350px}
+.catalog-card--photo .catalog-card__visual{width:100%;height:166px;overflow:hidden;background:#d5e9eb;border-bottom:1px solid #d9e9ec}
+.catalog-card--photo .catalog-card__visual img{display:block;width:100%;height:100%;object-fit:cover;object-position:center;transition:transform .45s ease}
+.catalog-card--photo:hover .catalog-card__visual img{transform:scale(1.035)}
+.catalog-card--photo .catalog-card__icon{display:none}
+.catalog-card--photo .catalog-card__category{margin:17px 22px 6px}
+.catalog-card--photo h3{margin:0 22px 10px}
+.catalog-card--photo p{margin:0 22px 18px;flex:1}
+.catalog-card--photo .catalog-card__link{margin:0 22px 24px}
+.v27-solution-visual{overflow:hidden;border-radius:22px;border:1px solid #d5e9eb;box-shadow:0 18px 40px rgba(6,55,66,.12);align-self:stretch;min-height:265px}
+.v27-solution-visual img{width:100%;height:100%;object-fit:cover;display:block}
+.v27-detail-visual{margin:0;grid-column:2;grid-row:1 / span 2;align-self:stretch;min-height:260px;border-radius:22px;overflow:hidden;box-shadow:0 20px 40px #0e394522}
+.v27-detail-visual img{display:block;width:100%;height:100%;object-fit:cover}
+@media(max-width:980px){.catalog-card--photo .catalog-card__visual{height:145px}.v27-detail-visual{grid-column:1 / -1;grid-row:auto;min-height:220px}}
+@media(max-width:760px){.catalog-card--photo{min-height:0}.catalog-card--photo .catalog-card__visual{height:185px}.v27-solution-visual{min-height:200px}.v27-detail-visual{min-height:180px}}
+@media(prefers-reduced-motion:reduce){.catalog-card--photo .catalog-card__visual img{transition:none}.catalog-card--photo:hover .catalog-card__visual img{transform:none}}
+
+/* Use one photo in the existing Solutions flagship column, not a third column. */
+.solutions-feature__art--photo{padding:0;background:#d5e9eb;min-height:360px}
+.solutions-feature__art--photo::before{display:none}
+.solutions-feature__art--photo img{width:100%;height:100%;max-height:none;object-fit:cover;filter:none}
+.v26-tech-card--photo{padding:0;overflow:hidden;min-height:380px}
+.v26-tech-card--photo .v27-platform-photo{height:155px;overflow:hidden;background:#cceaf0}
+.v26-tech-card--photo .v27-platform-photo img{width:100%;height:100%;object-fit:cover;display:block}
+.v26-tech-card--photo .v26-tech-card__symbol{width:44px;height:44px;font-size:22px;border-radius:12px;margin:18px 22px 13px}
+.v26-tech-card--photo h3,.v26-tech-card--photo p,.v26-tech-card--photo .v26-tech-card__stack,.v26-tech-card--photo .v26-inline-link{margin-left:22px;margin-right:22px}
+.v26-tech-card--photo .v26-inline-link{margin-bottom:25px}
+.v27-detail-visual{margin:0 0 26px;grid-column:auto;grid-row:auto;min-height:0;height:195px;box-shadow:none;border-radius:16px}
+@media(max-width:780px){.solutions-feature__art--photo{min-height:260px}.v27-detail-visual{height:170px}}
+/* Long German compounds in reusable case-study detail at narrow 320px widths. */
+.case-detail-hero__copy,.case-detail-hero__image{min-width:0}
+.case-detail-hero h1{overflow-wrap:anywhere;hyphens:auto}
+.case-detail-placeholder{max-width:100%;white-space:normal;overflow-wrap:anywhere}

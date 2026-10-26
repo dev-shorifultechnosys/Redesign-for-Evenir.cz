@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html lang="cs">
+<head>
+<meta charset="utf-8"/><script src="language-boot.js"></script><meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="#f1f8fa" name="theme-color"/><title>EVENIR — Mapa webu</title>
+<link href="assets/evenir-logo.svg" rel="icon" type="image/svg+xml"/>
+<link href="styles.css" rel="stylesheet"/>
+<style>
+.map-header{background:#fff;border-bottom:1px solid #dcebef;padding:17px 0}
+.map-header__inner{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+.map-header img{width:185px;height:auto}.map-langs{display:flex;gap:10px}.map-langs button{border:1px solid #c8e3e8;color:#174758;border-radius:8px;padding:7px 11px;background:#fff;font-weight:750}
+.map-langs button[aria-pressed=true]{color:#fff;background:#19929b;border-color:#19929b}
+.map-main{padding:76px 0 100px;min-height:54vh}.map-main h1{font-size:clamp(32px,5vw,60px);letter-spacing:-.05em;line-height:1;margin:12px 0 20px}
+.map-main p{max-width:640px;color:#496373;line-height:1.55;margin-bottom:34px}
+.map-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.map-group{border:1px solid #d9eaed;background:#fff;border-radius:20px;padding:23px}
+.map-group h2{font-size:19px;margin:0 0 15px}.map-group ul{list-style:none;padding:0;margin:0;display:grid;gap:12px}
+.map-group a{color:#116e80;font-size:15px}.map-group a:hover{text-decoration:underline}
+@media(max-width:790px){.map-grid{grid-template-columns:1fr}.map-main{padding:46px 0 64px}}
+</style>
+<script defer="" src="sitemap.js"></script>
+<link href="v26.css" rel="stylesheet"/><link rel="stylesheet" href="v27.css"/></head>
+<body>
+<header class="map-header"><div class="site-container map-header__inner"><a href="index.html"><img alt="EVENIR" height="37" src="assets/evenir-logo.svg" width="185"/></a><div aria-label="Language" class="map-langs" role="group"><button data-map-lang="cs" type="button">CZ</button><button data-map-lang="en" type="button">EN</button><button data-map-lang="de" type="button">DE</button></div></div></header>
+<main class="site-container map-main"><span class="section-eyebrow" data-map-i18n="eyebrow">NAVIGACE</span><h1 data-map-i18n="title">Mapa webu</h1><p data-map-i18n="intro">Rychlý přehled sekcí webu a služeb EVENIR.</p>
+<div class="map-grid">
+<section class="map-group"><h2 data-map-i18n="group1">Na tomto webu</h2><ul><li><a data-map-i18n="home" href="index.html">Úvod</a></li><li><a data-map-i18n="products" href="./index.html#ai-products-title">AI produkty</a></li><li><a data-map-i18n="cases" href="./index.html#case-studies">Případové studie</a></li><li><a data-map-i18n="security" href="./index.html#security">Bezpečnost</a></li><li><a data-map-i18n="faq" href="./index.html#faq">Časté dotazy</a></li><li><a data-map-i18n="contact" href="./index.html#contact">Kontakt</a></li></ul></section>
+<section class="map-group"><h2 data-map-i18n="group2">Řešení &amp; služby</h2><ul><li><a data-map-i18n="custom" href="solutions.html">AI řešení na míru</a></li><li><a href="solutions.html#ai-products">Evenir AI Sales</a></li><li><a href="solutions.html#ai-products">Call Care AI</a></li><li><a href="solutions.html#ai-products">Real Estate AI</a></li><li><a data-map-i18n="services" href="services.html">Všechny IT služby</a></li></ul></section>
+<section class="map-group"><h2 data-map-i18n="group3">Společnost</h2><ul><li><a data-map-i18n="about" href="about.html">O nás</a></li><li><a data-map-i18n="career" href="https://evenir.cz/kariera/">Kariéra</a></li><li><a data-map-i18n="privacy" href="https://evenir.cz/ochrana-osobnich-udaju/">Zásady ochrany osobních údajů</a></li></ul></section>
+</div><section class="v26-sitemap-extended site-container"><h2 data-map-i18n="extendedHead">Další stránky</h2><div class="v26-sitemap-grid"><a data-map-i18n="extendedAbout" href="about.html">O společnosti EVENIR</a><a data-map-i18n="extendedServices" href="services.html">Všechny služby</a><a data-map-i18n="extendedSolutions" href="solutions.html">AI a technologie</a><a data-map-i18n="extendedCases" href="case-studies.html">Ukázkové scénáře</a><a data-map-i18n="extendedCareers" href="careers.html">Kariéra</a></div></section></main>
+<!-- PHASE 08 · Corporate footer. No external fonts, scripts or logo dependencies. -->
+<footer aria-labelledby="e-footer-services-title" class="e-footer" id="site-footer">
+<div aria-hidden="true" class="e-footer__light"></div>
+<div class="site-container e-footer__container">
+<div class="e-footer__main">
+<div class="e-footer__identity">
+<a aria-label="EVENIR — home" class="e-footer__brand" data-footer-aria="homeAria" href="index.html">
+<img alt="EVENIR" decoding="async" height="48" src="assets/evenir-footer-white.svg" width="240"/>
+</a>
+<div aria-label="Social networks" class="e-footer__social" data-footer-aria="socialAria">
+<!-- Facebook/YouTube icons are reference placeholders until their verified business URLs are supplied. -->
+<span aria-label="Facebook profile URL pending" class="e-footer__social-icon e-footer__social-icon--pending" data-footer-aria="facebookPending" role="img" title="Facebook profile URL pending">
+<svg aria-hidden="true" viewbox="0 0 24 24"><path d="M14.3 21v-8h2.7l.4-3.1h-3.1V7.9c0-.9.3-1.5 1.6-1.5h1.7V3.6a23 23 0 0 0-2.5-.2c-2.5 0-4.3 1.5-4.3 4.4v2.1H8V13h2.8v8z" fill="currentColor"></path></svg>
+</span>
+<a aria-label="EVENIR on LinkedIn" class="e-footer__social-icon" href="https://www.linkedin.com/company/the-evenir/" rel="noopener noreferrer" target="_blank" title="LinkedIn">
+<svg aria-hidden="true" viewbox="0 0 24 24"><path d="M5.2 8.2H2.5V21h2.7zM3.9 2.7a1.6 1.6 0 1 0 0 3.2 1.6 1.6 0 0 0 0-3.2zM8.1 8.2V21h2.8v-7c0-1.8.3-3.5 2.5-3.5s2.2 2 2.2 3.6V21h2.8v-7.7c0-3.6-.8-5.5-4.3-5.5-1.7 0-2.8.9-3.3 1.8h-.1V8.2z" fill="currentColor"></path></svg>
+</a>
+<span aria-label="YouTube channel URL pending" class="e-footer__social-icon e-footer__social-icon--pending" data-footer-aria="youtubePending" role="img" title="YouTube channel URL pending">
+<svg aria-hidden="true" viewbox="0 0 24 24"><path d="M21.3 8.1c-.2-1.2-.9-2-2.1-2.2-1.7-.2-4.6-.3-7.2-.3s-5.5.1-7.2.3c-1.2.2-1.9 1-2.1 2.2-.2 1.3-.3 2.6-.3 3.9s.1 2.7.3 4c.2 1.2.9 2 2.1 2.1 1.7.3 4.6.3 7.2.3s5.5 0 7.2-.3c1.2-.1 1.9-.9 2.1-2.1.2-1.3.3-2.7.3-4s-.1-2.6-.3-3.9ZM10 15.5v-7l5.7 3.5z" fill="currentColor"></path></svg>
+</span>
+</div>
+</div>
+<nav aria-labelledby="e-footer-services-title" class="e-footer__services">
+<h2 class="e-footer__heading" data-footer-i18n="servicesHeading" id="e-footer-services-title">S ČÍM VÁM POMŮŽEME</h2>
+<div class="e-footer__service-cols">
+<ul class="e-footer__links">
+<li><a data-footer-i18n="customAI" href="solutions.html">Custom AI řešení</a></li>
+<li><a href="solutions.html#ai-products">Evenir AI Sales</a></li>
+<li><a href="solutions.html#ai-products">Call Care AI</a></li>
+<li><a href="solutions.html#ai-products">Real Estate AI</a></li>
+<li><a href="services.html">Microsoft 365</a></li>
+</ul>
+<ul class="e-footer__links">
+<li><a data-footer-i18n="cloud" href="services.html">Cloud</a></li>
+<li><a data-footer-i18n="cyber" href="services.html">Kybernetická bezpečnost</a></li>
+<li><a data-footer-i18n="outsource" href="services.html">IT outsourcing</a></li>
+<li><a data-footer-i18n="infrastructure" href="https://evenir.cz/sprava-infrastruktury/">Správa infrastruktury</a></li>
+<li><a data-footer-i18n="virtualization" href="services.html">Virtualizace</a></li>
+</ul>
+</div>
+</nav>
+<div class="e-footer__contact">
+<h2 class="e-footer__heading" data-footer-i18n="contactHeading">RYCHLÉ KONTAKTY</h2>
+<a href="mailto:info@evenir.cz">info@evenir.cz</a>
+<a href="tel:+420604644825">+420 604 644 825</a>
+<address>
+<span>Jičínská 226/17</span>
+<span data-footer-i18n="city">Praha 3</span>
+<span data-footer-i18n="district">Žižkov 130 00</span>
+</address>
+</div>
+<div aria-label="Partner badges" class="e-footer__partners" data-footer-aria="badgesAria">
+<div class="e-footer__badges-top">
+<div aria-label="Microsoft Cloud Solution Provider" class="e-footer__partner-badge e-footer__partner-badge--microsoft" role="img">
+<span aria-hidden="true" class="e-footer__ms-squares"><b></b><b></b><b></b><b></b></span>
+<span class="e-footer__partner-text"><strong>Microsoft</strong><small>Cloud Solution Provider</small></span>
+</div>
+<div aria-label="Dell Technologies Authorized Partner" class="e-footer__partner-badge e-footer__partner-badge--dell" role="img">
+<span class="e-footer__partner-text"><strong>DELL<span class="e-footer__dell-tech">Technologies</span></strong><small>AUTHORIZED PARTNER</small></span>
+</div>
+</div>
+<div aria-label="Powered by Industrial IT" class="e-footer__partner-badge e-footer__partner-badge--industrial" role="img">
+<span class="e-footer__partner-text"><small>Powered by</small><strong><span aria-hidden="true" class="e-footer__industrial-mark">✦</span> INDUSTRIAL IT</strong></span>
+</div>
+</div>
+</div>
+<div class="e-footer__bottom">
+<p class="e-footer__copyright">© <span data-footer-year="">2026</span> EVENIR. <span data-footer-i18n="rights">Všechna práva vyhrazena.</span></p>
+<nav aria-label="Legal links" class="e-footer__legal" data-footer-aria="legalAria">
+<a data-footer-i18n="privacy" href="https://evenir.cz/ochrana-osobnich-udaju/" rel="noopener noreferrer" target="_blank">Zásady ochrany osobních údajů</a>
+<span aria-hidden="true" class="e-footer__dot">|</span>
+<button class="e-footer__text-button" data-footer-cookies="" data-footer-i18n="cookies" type="button">Cookies</button>
+<span aria-hidden="true" class="e-footer__dot">|</span>
+<a data-footer-i18n="sitemap" href="./sitemap.html">Mapa webu</a>
+</nav>
+</div>
+</div>
+</footer>
+<dialog aria-labelledby="e-footer-cookie-title" class="e-cookie-dialog" id="e-footer-cookie-dialog">
+<div class="e-cookie-dialog__top">
+<h2 data-footer-i18n="cookieTitle" id="e-footer-cookie-title">Cookies a soukromí</h2>
+<button aria-label="Close" class="e-cookie-dialog__close" data-footer-cookie-close="" type="button">×</button>
+</div>
+<p data-footer-i18n="cookieText">Tento statický náhled nepoužívá analytické ani reklamní cookies. Vybraný jazyk si pro vaše pohodlí ukládá jen lokálně v prohlížeči.</p>
+<div class="e-cookie-dialog__status"><span aria-hidden="true" class="e-cookie-dialog__status-dot"></span><span data-footer-i18n="cookieStatus">Žádné volitelné cookies nejsou aktivní.</span></div>
+<button class="e-cookie-dialog__action" data-footer-cookie-close="" data-footer-i18n="cookieClose" type="button">Rozumím</button>
+</dialog>
+<script defer="" src="footer.js"></script>
+</body></html>
