@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" width="900" height="620">
+<defs><linearGradient id="sky" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#81c2d9"/><stop offset=".55" stop-color="#dcecf1"/><stop offset="1" stop-color="#acc9be"/></linearGradient>
+<linearGradient id="wall" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#fcfcfa"/><stop offset="1" stop-color="#bec8c4"/></linearGradient>
+<linearGradient id="glass" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#1c5f76"/><stop offset=".52" stop-color="#70adba"/><stop offset="1" stop-color="#0b394d"/></linearGradient>
+<filter id="shadow"><feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#0a2635" flood-opacity=".4"/></filter></defs>
+<rect width="900" height="620" fill="url(#sky)"/><circle cx="735" cy="110" r="78" fill="#fff" opacity=".55"/>
+<path d="M0 441q260-55 900 13v166H0Z" fill="#93b5a0"/><path d="M0 555q480-70 900 11v54H0Z" fill="#638d74"/>
+<path d="M76 481q20-180 54-262M795 506q-19-200-49-276" stroke="#607e68" stroke-width="18"/>
+<g fill="#487b5d"><circle cx="140" cy="235" r="100"/><circle cx="93" cy="312" r="70"/><circle cx="780" cy="250" r="110"/><circle cx="837" cy="336" r="65"/></g>
+<g filter="url(#shadow)">
+<path d="M184 263L512 139 812 251v260H184Z" fill="url(#wall)"/>
+<path d="M158 278L516 119 842 251 808 283 515 179 195 312Z" fill="#122f3d"/>
+<path d="M222 303h539v158H222Z" fill="url(#glass)" stroke="#d1edf1" stroke-width="7"/>
+<path d="M222 361h539M407 303v158M588 303v158" stroke="#d0edf0" stroke-width="6"/>
+<rect x="266" y="198" width="152" height="82" fill="url(#glass)" stroke="#d1edf1" stroke-width="5"/>
+<rect x="500" y="205" width="164" height="77" fill="url(#glass)" stroke="#d1edf1" stroke-width="5"/>
+<path d="M160 500h665" stroke="#f4f8f7" stroke-width="18"/>
+</g>
+<rect x="565" y="64" width="270" height="135" rx="18" fill="#083c53" fill-opacity=".9" stroke="#44d5e7" stroke-width="4"/>
+<path d="M594 155l48-44 47 22 44-45 63 25" fill="none" stroke="#69f0f6" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M594 167h208" stroke="#83ecf2" stroke-opacity=".5" stroke-width="3"/>
+<rect x="0" y="0" width="900" height="620" fill="#031a28" fill-opacity=".06"/>
+</svg>

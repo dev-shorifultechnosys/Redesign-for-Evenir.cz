@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620" role="img" aria-label="Bright contemporary office reception">
+<defs>
+ <linearGradient id="walls" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f3fafb"/><stop offset=".48" stop-color="#d5e7e9"/><stop offset="1" stop-color="#f8f1e4"/></linearGradient>
+ <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#80c9db"/><stop offset="1" stop-color="#d9f6f5"/></linearGradient>
+ <linearGradient id="floor" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f6f0e6"/><stop offset="1" stop-color="#94a7a6"/></linearGradient>
+ <linearGradient id="glass" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#eefaff" stop-opacity=".68"/><stop offset="1" stop-color="#fff" stop-opacity=".12"/></linearGradient>
+ <radialGradient id="light"><stop stop-color="#fff8dc" stop-opacity=".8"/><stop offset="1" stop-color="#fff8dc" stop-opacity="0"/></radialGradient>
+ <filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="8"/></filter>
+</defs>
+<rect width="1100" height="620" fill="url(#walls)"/>
+<polygon points="0,0 1100,0 1100,358 0,416" fill="#f7faf7"/>
+<rect x="185" y="62" width="900" height="390" fill="url(#sky)"/>
+<g fill="#c0dddc" opacity=".9"><rect x="242" y="165" width="72" height="230"/><rect x="330" y="206" width="54" height="190"/><rect x="423" y="115" width="85" height="281"/><rect x="544" y="170" width="62" height="225"/><rect x="680" y="104" width="85" height="291"/><rect x="785" y="194" width="70" height="201"/><rect x="934" y="154" width="90" height="242"/></g>
+<path d="M175 60v401M355 60v400M550 60v400M745 60v400M948 60v400" stroke="#527780" stroke-width="17"/>
+<path d="M180 72h905M180 273h905M180 453h905" stroke="#638991" stroke-width="14"/>
+<path d="M0 396h1100v224H0Z" fill="url(#floor)"/>
+<path d="M200 393 0 620M453 393 283 620M710 393 680 620M976 393 1060 620M0 495h1100M0 565h1100" stroke="#fff" stroke-width="3" opacity=".6"/>
+<path d="M90 0 160 0 250 415 190 438Z" fill="#c5d8d8" opacity=".7"/>
+<path d="M0 0h1100v62H0Z" fill="#e7eff0"/>
+<g fill="#fdfaf1"><rect x="200" y="42" width="200" height="12" rx="6"/><rect x="528" y="42" width="205" height="12" rx="6"/><rect x="865" y="42" width="181" height="12" rx="6"/></g>
+<ellipse cx="830" cy="576" rx="260" ry="36" fill="#3a5357" opacity=".18" filter="url(#soft)"/>
+<g>
+ <rect x="715" y="435" width="310" height="90" rx="36" fill="#cbbca4"/><rect x="705" y="404" width="325" height="81" rx="30" fill="#d7cbb7"/>
+ <rect x="696" y="474" width="38" height="111" rx="14" fill="#bba98f"/><rect x="990" y="474" width="38" height="111" rx="14" fill="#bba98f"/>
+ <rect x="795" y="474" width="160" height="12" rx="6" fill="#a5b9b9"/>
+</g>
+<rect x="535" y="464" width="147" height="25" rx="13" fill="#816959"/><rect x="601" y="487" width="14" height="72" fill="#765b4e"/>
+<rect x="385" y="440" width="66" height="92" rx="9" fill="#6a7b73"/><g stroke="#43866a" stroke-width="12" stroke-linecap="round" fill="none"><path d="M420 442q-52-68-48-120M422 442q47-72 69-114M420 438q-38-52-80-56M420 440q48-60 92-50"/></g>
+<rect x="1025" y="428" width="64" height="93" rx="8" fill="#75817a"/><g stroke="#4f966b" stroke-width="12" stroke-linecap="round" fill="none"><path d="M1057 429q-35-60-29-103M1058 429q44-64 43-102M1057 429q-35-33-68-42"/></g>
+<rect x="175" y="72" width="910" height="375" fill="url(#glass)" opacity=".34"/>
+<circle cx="1010" cy="100" r="170" fill="url(#light)"/>
+</svg>

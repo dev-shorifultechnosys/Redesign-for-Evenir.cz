@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" viewBox="0 0 640 640" fill="none" role="img" aria-label="Decorative glowing shield and lock">
+<defs>
+ <linearGradient id="rim" x1="130" y1="50" x2="515" y2="545" gradientUnits="userSpaceOnUse"><stop stop-color="#E5FFFF"/><stop offset=".23" stop-color="#3CEAFE"/><stop offset=".58" stop-color="#8BFAFF"/><stop offset="1" stop-color="#02BBF7"/></linearGradient>
+ <linearGradient id="inside" x1="325" y1="120" x2="360" y2="530" gradientUnits="userSpaceOnUse"><stop stop-color="#0A5F8F" stop-opacity=".72"/><stop offset=".57" stop-color="#062640" stop-opacity=".86"/><stop offset="1" stop-color="#013550" stop-opacity=".88"/></linearGradient>
+ <linearGradient id="lock" x1="240" y1="230" x2="420" y2="445"><stop stop-color="#F1FFFF"/><stop offset=".5" stop-color="#86F4FF"/><stop offset="1" stop-color="#43BFFF"/></linearGradient>
+ <radialGradient id="aura"><stop stop-color="#2CF3FF" stop-opacity=".36"/><stop offset="1" stop-color="#2CF3FF" stop-opacity="0"/></radialGradient>
+ <filter id="halo" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="17"/></filter>
+ <filter id="soft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="6"/></filter>
+ <filter id="inner" x="-40%" y="-40%" width="180%" height="180%"><feDropShadow dx="0" dy="1" stdDeviation="7" flood-color="#15E6FF" flood-opacity=".7"/></filter>
+ </defs>
+ <ellipse cx="320" cy="550" rx="240" ry="52" fill="url(#aura)"/>
+ <g stroke="#0CD3F8" stroke-width="2" opacity=".46"><ellipse cx="320" cy="552" rx="225" ry="45"/><ellipse cx="320" cy="554" rx="180" ry="33"/><ellipse cx="320" cy="554" rx="122" ry="18"/></g>
+ <g stroke="#0CD3F8" stroke-width="1.4" opacity=".27"><path d="M4 546H147l42 19M492 565l42-19h104M73 421h93M473 421h93M113 290h46M481 290h46"/><circle cx="73" cy="421" r="4"/><circle cx="566" cy="421" r="4"/></g>
+ <path d="M320 67C271 109 212 139 136 160v157c0 125 75 216 184 263 109-47 184-138 184-263V160C428 139 369 109 320 67Z" fill="#0DD9FC" opacity=".82" filter="url(#halo)"/>
+ <path d="M320 67C271 109 212 139 136 160v157c0 125 75 216 184 263 109-47 184-138 184-263V160C428 139 369 109 320 67Z" fill="url(#inside)" stroke="url(#rim)" stroke-width="13"/>
+ <path d="M320 93C278 128 219 163 167 179v134c0 111 62 190 153 232 91-42 153-121 153-232V179C421 163 362 128 320 93Z" stroke="#7BFDFF" stroke-opacity=".62" stroke-width="4"/>
+ <path d="M320 118C279 149 239 166 196 185v127c0 89 47 155 124 195 77-40 124-106 124-195V185C401 166 361 149 320 118Z" stroke="#5EE8FA" stroke-opacity=".25" stroke-width="2"/>
+ <path d="M320 88C367 123 423 149 486 166" stroke="#fff" stroke-width="4" stroke-linecap="round" opacity=".73"/>
+ <g filter="url(#inner)">
+   <path d="M266 294v-37a54 54 0 0 1 108 0v37" stroke="url(#lock)" stroke-width="26" stroke-linecap="round"/>
+   <rect x="231" y="282" width="178" height="146" rx="22" fill="url(#lock)"/>
+   <rect x="245" y="294" width="150" height="121" rx="15" fill="#47B5D3" fill-opacity=".18" stroke="#E5FFFF" stroke-opacity=".48" stroke-width="3"/>
+   <circle cx="320" cy="342" r="18" fill="#056588" stroke="#E4FFFF" stroke-width="4"/>
+   <path d="m313 353-8 27a5 5 0 0 0 5 6h20a5 5 0 0 0 5-6l-8-27" fill="#056588"/>
+ </g>
+ <path d="M176 191v103" stroke="#E5FFFF" stroke-width="3" stroke-linecap="round" opacity=".33"/>
+</svg>
